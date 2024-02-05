@@ -1,0 +1,107 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219842343944@s.whatsapp.net',
+    fromMe: false,
+    id: '1D7DF2173835D3C15BEA32CB8AEAF8E7',
+    participant: undefined
+  },
+  messageTimestamp: 1707174620,
+  pushName: 'Héctor Ruiz',
+  broadcast: false,
+  message: Message {
+    imageMessage: ImageMessage {
+      interactiveAnnotations: [],
+      scanLengths: [Array],
+      url: 'https://mmg.whatsapp.net/v/t62.7118-24/25592421_373000148763372_1746302951065919582_n.enc?ccb=11-4&oh=01_AdQuK3ZaXFqN1U5Q0_1tQVcVFDJorRgqwsNqCtYIkpCwUg&oe=65E8E6A2&_nc_sid=5e03e0&mms3=true',
+      mimetype: 'image/jpeg',
+      fileSha256: [Uint8Array],
+      fileLength: [Long],
+      height: 1599,
+      width: 899,
+      mediaKey: [Uint8Array],
+      fileEncSha256: [Uint8Array],
+      directPath: '/v/t62.7118-24/25592421_373000148763372_1746302951065919582_n.enc?ccb=11-4&oh=01_AdQuK3ZaXFqN1U5Q0_1tQVcVFDJorRgqwsNqCtYIkpCwUg&oe=65E8E6A2&_nc_sid=5e03e0',
+      mediaKeyTimestamp: [Long],
+      jpegThumbnail: [Uint8Array],
+      scansSidecar: [Uint8Array],
+      midQualityFileSha256: [Uint8Array]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '_event_media__cba25fa9-a87d-4e0d-999c-0c4f6f13104c',
+  from: '5219842343944'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_cfd8c1e6-e2b6-43cf-b5e9-71550ec20324',
+  keyword: 'key_fbe7dbee-f76e-4ec0-99ff-30a15b78389c',
+  answer: 'En un momento veo tu imágen',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '33d29c6686902758d60a0badfe2d2dc7'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219842343944@s.whatsapp.net',
+    fromMe: false,
+    id: 'D415013C744ACB10C9CA62D3195D51A3',
+    participant: undefined
+  },
+  messageTimestamp: 1707174682,
+  pushName: 'Héctor Ruiz',
+  broadcast: false,
+  message: Message {
+    videoMessage: VideoMessage {
+      interactiveAnnotations: [],
+      url: 'https://mmg.whatsapp.net/v/t62.7161-24/34589805_410984291328019_5780241459527387172_n.enc?ccb=11-4&oh=01_AdQi2N_Hxizz57CMRmns29-1DG4aCICtNqA30QCuZdUQ3g&oe=65E8DA4B&_nc_sid=5e03e0&mms3=true',
+      mimetype: 'video/mp4',
+      fileSha256: [Uint8Array],
+      fileLength: [Long],
+      seconds: 1,
+      mediaKey: [Uint8Array],
+      height: 864,
+      width: 480,
+      fileEncSha256: [Uint8Array],
+      directPath: '/v/t62.7161-24/34589805_410984291328019_5780241459527387172_n.enc?ccb=11-4&oh=01_AdQi2N_Hxizz57CMRmns29-1DG4aCICtNqA30QCuZdUQ3g&oe=65E8DA4B&_nc_sid=5e03e0',
+      mediaKeyTimestamp: [Long],
+      jpegThumbnail: [Uint8Array],
+      streamingSidecar: [Uint8Array]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '_event_media__807598cb-d869-4239-9c9c-d8c5867b3407',
+  from: '5219842343944'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_cfd8c1e6-e2b6-43cf-b5e9-71550ec20324',
+  keyword: 'key_fbe7dbee-f76e-4ec0-99ff-30a15b78389c',
+  answer: 'En un momento veo tu imágen',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '33d29c6686902758d60a0badfe2d2dc7'
+}
