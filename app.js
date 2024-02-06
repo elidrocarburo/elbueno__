@@ -6,6 +6,9 @@ const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 const MockAdapter = require('@bot-whatsapp/database/mock')
 const ChatGPTClass = require('./chatgpt.class');
 const {PROMP} = require('./promp')
+const notavozFlow = require('./flujos/notavoz.flow')
+const imagenFlow = require('./flujos/imagen.flow')
+const docsFlow = require('./flujos/docs.flow')
 
 const ChatGPTInstance = new ChatGPTClass()
 
@@ -19,17 +22,6 @@ const flowSecundariodelSecundario = addKeyword(['doc']).addAnswer(['📄 Aquí t
 
 const flowSecundario = addKeyword(['2', 'siguiente']).addAnswer(['📄 Aquí tenemos el flujo secundario y mira cómo escribes *doc* y así siguies a un flujo secundario'], null, null, [flowSecundariodelSecundario])
 
-
-const flowDocs = addKeyword(['doc', 'documentacion', 'documentación']).addAnswer(
-    [
-        '📄 Aquí encontras las documentación recuerda que puedes mejorarla',
-        'https://bot-whatsapp.netlify.app/',
-        '\n*2* Para siguiente paso.',
-    ],
-    null,
-    null,
-    [flowSecundario]
-)
 
 const flowTuto = addKeyword(['tutorial', 'tuto']).addAnswer(
     [
@@ -69,7 +61,7 @@ const flowTarjeta = addKeyword(['tarjeta']).addAnswer("Mi tarjeta de presentaci�
         "VERSION:3.0\n" +
         "FN:HecBot\n" + // full name
         "AAAIMX;\n" + // the organization of the contact
-        "TEL;type=CELL;type=VOICE;waid=9995521599:9995521599\n" + // WhatsApp ID + phone number
+        "TEL;type=CELL;type=VOICE;waid=+529995521599:9995521599\n" + // WhatsApp ID + phone number
         "END:VCARD";
 
     const id = ctx.key.remoteJid
@@ -118,13 +110,13 @@ const flowPrincipal = addKeyword([EVENTS.WELCOME, 'hola', 'ole', 'alo'])
         ,
         { // FUNCIÓN NO DISPONIBLE
             media: soyese
-            //     delay:1000,
-            //     capture:true,
-            //     buttons:[
-            //         {text:'👉 *doc* para ver la documentación'},
-            //         {text:'👉 *gracias*  para ver la lista de videos'},
-            //         {text:'👉 *discord* unirte al discord'}
-            //         ]
+/*     delay:1000,
+//     capture:true,
+//     buttons:[
+//         {text:'👉 *doc* para ver la documentación'},
+//         {text:'👉 *gracias*  para ver la lista de videos'},
+//         {text:'👉 *discord* unirte al discord'}
+]*/
         }
 
     )
@@ -145,20 +137,17 @@ const flowPrincipal = addKeyword([EVENTS.WELCOME, 'hola', 'ole', 'alo'])
                 return fallBack('No entiendo que quieres decir')
             }
         },
-        [flowDocs, flowGracias, flowTuto, flowDiscord, flowProductos, flowCancelar, flowTarjeta,flowChatGPT]
+        [docsFlow, flowGracias, flowTuto, flowDiscord, flowProductos, flowCancelar, flowTarjeta,flowChatGPT]
     )
 
-const flowNotaVoz = addKeyword(EVENTS.VOICE_NOTE).addAnswer(['Te escucho en un momento te respondo'])
-
-const flowImg = addKeyword(EVENTS.MEDIA).addAnswer(['En un momento veo tu imágen'])
-
-const createBotChatGPT = async ({ database,provider }) => {
-    return new ChatGPTClass(database,provider)
-}
+/* FUNCIÓN NECEARIA SI SOLO SE REQUIERE CHATGPT SOLITO DA CLIC DE NECESITARLA
+// const createBotChatGPT = async ({ database,provider }) => {
+//     return new ChatGPTClass(database,provider)
+*/
 
 const main = async () => {
     const adapterDB = new MockAdapter()
-    const adapterFlow = createFlow([flowPrincipal, flowNotaVoz, flowImg])
+    const adapterFlow = createFlow([flowPrincipal, notavozFlow, imagenFlow])
     const adapterProvider = createProvider(BaileysProvider)
 
     createBot({
