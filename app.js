@@ -12,6 +12,7 @@ const docsFlow = require('./flujos/docs.flow')
 const tutoFlow = require('./flujos/tuto.flow')
 const graciasFlow = require('./flujos/gracias.flow')
 const discordFlow = require('./flujos/discord.flow')
+const cancelarFlow = require('./flujos/cancelar.flow')
 
 const ChatGPTInstance = new ChatGPTClass()
 
@@ -21,16 +22,7 @@ const APIPRODUCTOS = 'https://fakestoreapi.com/products'
 
 const flowCancelar = addKeyword(['cancelar']).addAnswer('👋 Hasta luego', async (ctx, { endflow }) => { return endflow })
 
-const flowSecundariodelSecundario = addKeyword(['doc']).addAnswer(['📄 Aquí tenemos el flujo terciario'])
 
-const flowSecundario = addKeyword(['2', 'siguiente']).addAnswer(['📄 Aquí tenemos el flujo secundario y mira cómo escribes *doc* y así siguies a un flujo secundario'], null, null, [flowSecundariodelSecundario])
-
-const flowDiscord = addKeyword(['discord']).addAnswer(
-    ['🤪 Únete al discord', 'https://link.codigoencasa.com/DISCORD', '\n*2* Para siguiente paso.'],
-    null,
-    null,
-    [flowSecundario]
-)
 
 const flowTarjeta = addKeyword(['tarjeta']).addAnswer("Mi tarjeta de presentación", null, async (ctx, { provider }) => {
     // send a contact!
@@ -115,7 +107,7 @@ const flowPrincipal = addKeyword([EVENTS.WELCOME, 'hola', 'ole', 'alo'])
                 return fallBack('No entiendo que quieres decir')
             }
         },
-        [docsFlow, graciasFlow, tutoFlow, discordFlow, flowProductos, flowCancelar, flowTarjeta,flowChatGPT]
+        [docsFlow, graciasFlow, tutoFlow, discordFlow, flowProductos, cancelarFlow, flowTarjeta,flowChatGPT]
     )
 
 /* FUNCIÓN NECEARIA SI SOLO SE REQUIERE CHATGPT SOLITO DA CLIC DE NECESITARLA
