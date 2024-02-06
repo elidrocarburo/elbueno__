@@ -2,10 +2,10 @@
   key: {
     remoteJid: '5219842343944@s.whatsapp.net',
     fromMe: false,
-    id: '3EB0B3E018B90A384BE7C9',
+    id: '3EB019361EBEFF43FEC793',
     participant: undefined
   },
-  messageTimestamp: 1707262277,
+  messageTimestamp: 1707262494,
   pushName: 'Héctor Ruiz',
   broadcast: false,
   message: Message {
@@ -19,8 +19,8 @@
   from: '5219842343944'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_a3423d07-04e3-427b-8a18-49a314434bec',
-  keyword: 'key_e284908d-3cf0-4bbe-bb42-58f93a1421fb',
+  ref: 'ans_5bf36df5-ce6e-4c35-b998-d1b6d12ca1a3',
+  keyword: 'key_38155567-a2b2-4395-a178-a6a361149034',
   answer: '🙌 Hola bienvenido a este *Chatbot*',
   options: {
     media: null,
@@ -34,11 +34,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '38639b61b5ecfa38b80b24b37876c9d9'
+  refSerialize: '59ff297a302341d053de4f99b75018a5'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_73326db0-6caa-4e87-a172-18b07f6604ec',
-  keyword: 'ans_a3423d07-04e3-427b-8a18-49a314434bec',
+  ref: 'ans_28261681-f94d-4293-8968-30043f7c6f8b',
+  keyword: 'ans_5bf36df5-ce6e-4c35-b998-d1b6d12ca1a3',
   answer: 'Soy ese:',
   options: {
     media: 'https://i.pinimg.com/236x/2e/3d/97/2e3d97cc1ad6010f10fd8511d7cf470b.jpg',
@@ -52,11 +52,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '4274ccb576e8fbee44425c63df213126'
+  refSerialize: '5ca6cb9389cfe2db0131c25eb5f72ccf'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_2ab4dee9-523d-436c-aaf5-41e08754f0a9',
-  keyword: 'ans_73326db0-6caa-4e87-a172-18b07f6604ec',
+  ref: 'ans_3af1a757-2371-49f7-9d58-4f9ee33d63c5',
+  keyword: 'ans_28261681-f94d-4293-8968-30043f7c6f8b',
   answer: 'te comparto los siguientes links de interes sobre el proyecto\n' +
     '👉 *doc* para ver la documentación\n' +
     '👉 *gracias*  para ver la lista de videos\n' +
@@ -87,33 +87,35 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'fe02c8eb34354648fbf6bf82ca5dd3a1'
+  refSerialize: '0412f99bedfe893fc6883cbdd19067b7'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5219842343944@s.whatsapp.net',
     fromMe: false,
-    id: '3EB04C45FAB7FA45ED5B03',
+    id: '3EB0EB4FAB52BCE56DEF78',
     participant: undefined
   },
-  messageTimestamp: 1707262281,
+  messageTimestamp: 1707262497,
   pushName: 'Héctor Ruiz',
   broadcast: false,
   message: Message {
-    conversation: 'doc',
+    conversation: 'gracias',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'doc',
+  body: 'gracias',
   from: '5219842343944'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_29f7dac0-1e5d-434f-b1a3-813412016e24',
-  keyword: 'key_a8cf0f27-ce45-49e7-98cf-85e3b74bfa41',
-  answer: '📄 Aquí encontras las documentación recuerda que puedes mejorarla\n' +
-    'https://bot-whatsapp.netlify.app/\n' +
+  ref: 'ans_69bec01c-5fd9-407c-9ce8-b72e39e59f82',
+  keyword: 'key_436dd672-66d3-4717-bd65-80659e60668c',
+  answer: '🚀 Puedes aportar tu granito de arena a este proyecto\n' +
+    '[*opencollective*] https://opencollective.com/bot-whatsapp\n' +
+    '[*buymeacoffee*] https://www.buymeacoffee.com/leifermendez\n' +
+    '[*patreon*] https://www.patreon.com/leifermendez\n' +
     '\n' +
     '*2* Para siguiente paso.',
   options: {
@@ -124,176 +126,9 @@
     delay: 0,
     idle: null,
     ref: null,
-    nested: [ [Object], [Object] ],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: 'eaa3292c883c29d9b7b59192338e308e'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5219842343944@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0DB091D3EA46C92BCCB',
-    participant: undefined
-  },
-  messageTimestamp: 1707262282,
-  pushName: 'Héctor Ruiz',
-  broadcast: false,
-  message: Message {
-    conversation: '2',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '2',
-  from: '5219842343944'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_e3a0ece1-d888-4fc9-af69-507f8f7f9484',
-  keyword: 'key_6617e614-05ab-4a7d-bb28-9e7846e3a397',
-  answer: '📄 Aquí tenemos el flujo secundario y mira cómo escribes *doc* y así siguies a un flujo secundario',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [ [Object], [Object] ],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: 'f096a40c62e614fd99ca56b88a592b2d'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5219842343944@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0A3532E65B8C9BD5B25',
-    participant: undefined
-  },
-  messageTimestamp: 1707262288,
-  pushName: 'Héctor Ruiz',
-  broadcast: false,
-  message: Message {
-    conversation: 'doc',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'doc',
-  from: '5219842343944'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_6bc1317e-2be9-4bd8-831c-09c8567dbbc2',
-  keyword: 'key_060ac49a-194e-4466-9c53-0d19b46927e0',
-  answer: '📄 Aquí tenemos el flujo terciario',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
     nested: [],
     keyword: {},
     callback: false
   },
-  refSerialize: 'b0cc3b4b0c8b51171e4d2f3a7aa2bc77'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5219842343944@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0FEACD0AA35C95DBCC3',
-    participant: undefined
-  },
-  messageTimestamp: 1707262291,
-  pushName: 'Héctor Ruiz',
-  broadcast: false,
-  message: Message {
-    conversation: 'nice',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'nice',
-  from: '5219842343944'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_a3423d07-04e3-427b-8a18-49a314434bec',
-  keyword: 'key_e284908d-3cf0-4bbe-bb42-58f93a1421fb',
-  answer: '🙌 Hola bienvenido a este *Chatbot*',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '38639b61b5ecfa38b80b24b37876c9d9'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_73326db0-6caa-4e87-a172-18b07f6604ec',
-  keyword: 'ans_a3423d07-04e3-427b-8a18-49a314434bec',
-  answer: 'Soy ese:',
-  options: {
-    media: 'https://i.pinimg.com/236x/2e/3d/97/2e3d97cc1ad6010f10fd8511d7cf470b.jpg',
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '4274ccb576e8fbee44425c63df213126'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_2ab4dee9-523d-436c-aaf5-41e08754f0a9',
-  keyword: 'ans_73326db0-6caa-4e87-a172-18b07f6604ec',
-  answer: 'te comparto los siguientes links de interes sobre el proyecto\n' +
-    '👉 *doc* para ver la documentación\n' +
-    '👉 *gracias*  para ver la lista de videos\n' +
-    '👉 *discord* unirte al discord\n' +
-    '👉 *productos* checa los productos bro\n' +
-    '👉 *tarjeta* para ver un ejemplo rapido\n' +
-    '👉 *chatgpt* pruebame nene\n' +
-    '👉 *cancelar* para salir',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object]
-    ],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: 'fe02c8eb34354648fbf6bf82ca5dd3a1'
+  refSerialize: '596603dc2f0dec1ed6b2151d0f6c4277'
 }

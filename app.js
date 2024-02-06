@@ -9,6 +9,8 @@ const {PROMP} = require('./promp')
 const notavozFlow = require('./flujos/notavoz.flow')
 const imagenFlow = require('./flujos/imagen.flow')
 const docsFlow = require('./flujos/docs.flow')
+const tutoFlow = require('./flujos/tuto.flow')
+const graciasFlow = require('./flujos/gracias.flow')
 
 const ChatGPTInstance = new ChatGPTClass()
 
@@ -137,7 +139,7 @@ const flowPrincipal = addKeyword([EVENTS.WELCOME, 'hola', 'ole', 'alo'])
                 return fallBack('No entiendo que quieres decir')
             }
         },
-        [docsFlow, flowGracias, flowTuto, flowDiscord, flowProductos, flowCancelar, flowTarjeta,flowChatGPT]
+        [docsFlow, graciasFlow, tutoFlow, flowDiscord, flowProductos, flowCancelar, flowTarjeta,flowChatGPT]
     )
 
 /* FUNCIÓN NECEARIA SI SOLO SE REQUIERE CHATGPT SOLITO DA CLIC DE NECESITARLA

@@ -6,7 +6,6 @@ module.exports =  addKeyword(['gracias', 'grac']).addAnswer(
         '[*opencollective*] https://opencollective.com/bot-whatsapp',
         '[*buymeacoffee*] https://www.buymeacoffee.com/leifermendez',
         '[*patreon*] https://www.patreon.com/leifermendez',
-        '\n*2* Para siguiente paso.',
     ],
     null,
     null,
