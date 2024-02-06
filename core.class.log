@@ -1,43 +1,27 @@
 [handleMsg]:  {
   key: {
-    remoteJid: '5219842343944@s.whatsapp.net',
+    remoteJid: '5215542134811@s.whatsapp.net',
     fromMe: false,
-    id: '1D7DF2173835D3C15BEA32CB8AEAF8E7',
+    id: '544BA485F6A2F8D67065F626BCA5D4FC',
     participant: undefined
   },
-  messageTimestamp: 1707174620,
-  pushName: 'Héctor Ruiz',
+  messageTimestamp: 1707198447,
+  pushName: 'Hugo Martinez',
   broadcast: false,
   message: Message {
-    imageMessage: ImageMessage {
-      interactiveAnnotations: [],
-      scanLengths: [Array],
-      url: 'https://mmg.whatsapp.net/v/t62.7118-24/25592421_373000148763372_1746302951065919582_n.enc?ccb=11-4&oh=01_AdQuK3ZaXFqN1U5Q0_1tQVcVFDJorRgqwsNqCtYIkpCwUg&oe=65E8E6A2&_nc_sid=5e03e0&mms3=true',
-      mimetype: 'image/jpeg',
-      fileSha256: [Uint8Array],
-      fileLength: [Long],
-      height: 1599,
-      width: 899,
-      mediaKey: [Uint8Array],
-      fileEncSha256: [Uint8Array],
-      directPath: '/v/t62.7118-24/25592421_373000148763372_1746302951065919582_n.enc?ccb=11-4&oh=01_AdQuK3ZaXFqN1U5Q0_1tQVcVFDJorRgqwsNqCtYIkpCwUg&oe=65E8E6A2&_nc_sid=5e03e0',
-      mediaKeyTimestamp: [Long],
-      jpegThumbnail: [Uint8Array],
-      scansSidecar: [Uint8Array],
-      midQualityFileSha256: [Uint8Array]
-    },
+    conversation: 'Hola',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: '_event_media__cba25fa9-a87d-4e0d-999c-0c4f6f13104c',
-  from: '5219842343944'
+  body: 'Hola',
+  from: '5215542134811'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_cfd8c1e6-e2b6-43cf-b5e9-71550ec20324',
-  keyword: 'key_fbe7dbee-f76e-4ec0-99ff-30a15b78389c',
-  answer: 'En un momento veo tu imágen',
+  ref: 'ans_d80217ad-5e0d-424f-9464-021c8f2685a0',
+  keyword: 'key_fbda1d45-9746-4755-af1d-2b25c306cc37',
+  answer: '🙌 Hola bienvenido a este *Chatbot*',
   options: {
     media: null,
     buttons: [],
@@ -50,47 +34,105 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '33d29c6686902758d60a0badfe2d2dc7'
+  refSerialize: 'e7bd86cea770fa4e517d21dc7de4891d'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_5892534e-b910-4398-af7b-5bd6e31c0ca6',
+  keyword: 'ans_d80217ad-5e0d-424f-9464-021c8f2685a0',
+  answer: 'Soy ese:',
+  options: {
+    media: 'https://i.pinimg.com/236x/2e/3d/97/2e3d97cc1ad6010f10fd8511d7cf470b.jpg',
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '558e2487ca4e2c452ef96387b55f7da8'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_be80fbd7-cab2-43ca-8721-ad3223e53227',
+  keyword: 'ans_5892534e-b910-4398-af7b-5bd6e31c0ca6',
+  answer: 'te comparto los siguientes links de interes sobre el proyecto\n' +
+    '👉 *doc* para ver la documentación\n' +
+    '👉 *gracias*  para ver la lista de videos\n' +
+    '👉 *discord* unirte al discord\n' +
+    '👉 *productos* checa los productos bro\n' +
+    '👉 *tarjeta* para ver un ejemplo rapido\n' +
+    '👉 *chatgpt* pruebame nene\n' +
+    '👉 *cancelar* para salir',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '3d539821137226ec93dc387c5c184b90'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5219842343944@s.whatsapp.net',
+    remoteJid: '5215542134811@s.whatsapp.net',
     fromMe: false,
-    id: 'D415013C744ACB10C9CA62D3195D51A3',
+    id: '6CB57B733C72180596AB97318FA9C6CA',
     participant: undefined
   },
-  messageTimestamp: 1707174682,
-  pushName: 'Héctor Ruiz',
+  messageTimestamp: 1707198473,
+  pushName: 'Hugo Martinez',
   broadcast: false,
   message: Message {
-    videoMessage: VideoMessage {
-      interactiveAnnotations: [],
-      url: 'https://mmg.whatsapp.net/v/t62.7161-24/34589805_410984291328019_5780241459527387172_n.enc?ccb=11-4&oh=01_AdQi2N_Hxizz57CMRmns29-1DG4aCICtNqA30QCuZdUQ3g&oe=65E8DA4B&_nc_sid=5e03e0&mms3=true',
-      mimetype: 'video/mp4',
-      fileSha256: [Uint8Array],
-      fileLength: [Long],
-      seconds: 1,
-      mediaKey: [Uint8Array],
-      height: 864,
-      width: 480,
-      fileEncSha256: [Uint8Array],
-      directPath: '/v/t62.7161-24/34589805_410984291328019_5780241459527387172_n.enc?ccb=11-4&oh=01_AdQi2N_Hxizz57CMRmns29-1DG4aCICtNqA30QCuZdUQ3g&oe=65E8DA4B&_nc_sid=5e03e0',
-      mediaKeyTimestamp: [Long],
-      jpegThumbnail: [Uint8Array],
-      streamingSidecar: [Uint8Array]
-    },
+    conversation: 'Tienes citas?',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: '_event_media__807598cb-d869-4239-9c9c-d8c5867b3407',
-  from: '5219842343944'
+  body: 'Tienes citas?',
+  from: '5215542134811'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5215542134811@s.whatsapp.net',
+    fromMe: false,
+    id: '362064B5506A32177FBFAFA67307F9D9',
+    participant: undefined
+  },
+  messageTimestamp: 1707198483,
+  pushName: 'Hugo Martinez',
+  broadcast: false,
+  message: Message {
+    conversation: 'Chatgpt',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Chatgpt',
+  from: '5215542134811'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_cfd8c1e6-e2b6-43cf-b5e9-71550ec20324',
-  keyword: 'key_fbe7dbee-f76e-4ec0-99ff-30a15b78389c',
-  answer: 'En un momento veo tu imágen',
+  ref: 'ans_1f00f6a8-2f38-4cad-8e73-e342d125b80b',
+  keyword: 'key_72b48957-9b64-42cd-9d97-bdb10c975b2f',
+  answer: '🤖 Pruebame nene',
   options: {
     media: null,
     buttons: [],
@@ -101,7 +143,165 @@
     ref: null,
     nested: [],
     keyword: {},
-    callback: false
+    callback: true
   },
-  refSerialize: '33d29c6686902758d60a0badfe2d2dc7'
+  refSerialize: '748f79659dd7f7a6c43d64705d6a8a38'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_503115b7-d4ef-4d6b-a60d-9cc2841303a7',
+  keyword: 'ans_1f00f6a8-2f38-4cad-8e73-e342d125b80b',
+  answer: '🤖 Pruebame nene',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object], [Object], [Object] ],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '13c30cffccb916185f876ac258e05dbc'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5215542134811@s.whatsapp.net',
+    fromMe: false,
+    id: '8106D5CA64585DAD7D033CEA90DEA942',
+    participant: undefined
+  },
+  messageTimestamp: 1707198499,
+  pushName: 'Hugo Martinez',
+  broadcast: false,
+  message: Message {
+    conversation: 'Tienes citas para mañana?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Tienes citas para mañana?',
+  from: '5215542134811'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5215542134811@s.whatsapp.net',
+    fromMe: false,
+    id: '75146CF0018E29ECF0D272DFA056621D',
+    participant: undefined
+  },
+  messageTimestamp: 1707198514,
+  pushName: 'Hugo Martinez',
+  broadcast: false,
+  message: Message {
+    conversation: 'En qué horario?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'En qué horario?',
+  from: '5215542134811'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5215542134811@s.whatsapp.net',
+    fromMe: false,
+    id: '3466AA990C0C1703AA1B604D4FD08189',
+    participant: undefined
+  },
+  messageTimestamp: 1707198528,
+  pushName: 'Hugo Martinez',
+  broadcast: false,
+  message: Message {
+    conversation: 'Y para jueves?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Y para jueves?',
+  from: '5215542134811'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5215542134811@s.whatsapp.net',
+    fromMe: false,
+    id: 'DB903C02B9111E1274D1FE160140445D',
+    participant: undefined
+  },
+  messageTimestamp: 1707198542,
+  pushName: 'Hugo Martinez',
+  broadcast: false,
+  message: Message {
+    conversation: 'Y el 31 de enero?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Y el 31 de enero?',
+  from: '5215542134811'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5215542134811@s.whatsapp.net',
+    fromMe: false,
+    id: 'D9A87493BF68FD02670E70DF5BEC42EF',
+    participant: undefined
+  },
+  messageTimestamp: 1707198552,
+  pushName: 'Hugo Martinez',
+  broadcast: false,
+  message: Message {
+    conversation: 'Para que fechas tienes citas?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Para que fechas tienes citas?',
+  from: '5215542134811'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5215542134811@s.whatsapp.net',
+    fromMe: false,
+    id: 'B844F8252D88A36BBC440492EDBD2A27',
+    participant: undefined
+  },
+  messageTimestamp: 1707198567,
+  pushName: 'Hugo Martinez',
+  broadcast: false,
+  message: Message {
+    conversation: 'Cuál es la mas próxima?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Cuál es la mas próxima?',
+  from: '5215542134811'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5215542134811@s.whatsapp.net',
+    fromMe: false,
+    id: 'A315A7F3174F879632C8F97C455A5A50',
+    participant: undefined
+  },
+  messageTimestamp: 1707198578,
+  pushName: 'Hugo Martinez',
+  broadcast: false,
+  message: Message {
+    conversation: 'En qué horario?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'En qué horario?',
+  from: '5215542134811'
 }
