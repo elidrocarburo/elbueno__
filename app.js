@@ -11,6 +11,7 @@ const imagenFlow = require('./flujos/imagen.flow')
 const docsFlow = require('./flujos/docs.flow')
 const tutoFlow = require('./flujos/tuto.flow')
 const graciasFlow = require('./flujos/gracias.flow')
+const discordFlow = require('./flujos/discord.flow')
 
 const ChatGPTInstance = new ChatGPTClass()
 
@@ -23,31 +24,6 @@ const flowCancelar = addKeyword(['cancelar']).addAnswer('👋 Hasta luego', asyn
 const flowSecundariodelSecundario = addKeyword(['doc']).addAnswer(['📄 Aquí tenemos el flujo terciario'])
 
 const flowSecundario = addKeyword(['2', 'siguiente']).addAnswer(['📄 Aquí tenemos el flujo secundario y mira cómo escribes *doc* y así siguies a un flujo secundario'], null, null, [flowSecundariodelSecundario])
-
-
-const flowTuto = addKeyword(['tutorial', 'tuto']).addAnswer(
-    [
-        '🙌 Aquí encontras un ejemplo rapido',
-        'https://bot-whatsapp.netlify.app/docs/example/',
-        '\n*2* Para siguiente paso.',
-    ],
-    null,
-    null,
-    [flowSecundario]
-)
-
-const flowGracias = addKeyword(['gracias', 'grac']).addAnswer(
-    [
-        '🚀 Puedes aportar tu granito de arena a este proyecto',
-        '[*opencollective*] https://opencollective.com/bot-whatsapp',
-        '[*buymeacoffee*] https://www.buymeacoffee.com/leifermendez',
-        '[*patreon*] https://www.patreon.com/leifermendez',
-        '\n*2* Para siguiente paso.',
-    ],
-    null,
-    null,
-    [flowSecundario]
-)
 
 const flowDiscord = addKeyword(['discord']).addAnswer(
     ['🤪 Únete al discord', 'https://link.codigoencasa.com/DISCORD', '\n*2* Para siguiente paso.'],
@@ -139,7 +115,7 @@ const flowPrincipal = addKeyword([EVENTS.WELCOME, 'hola', 'ole', 'alo'])
                 return fallBack('No entiendo que quieres decir')
             }
         },
-        [docsFlow, graciasFlow, tutoFlow, flowDiscord, flowProductos, flowCancelar, flowTarjeta,flowChatGPT]
+        [docsFlow, graciasFlow, tutoFlow, discordFlow, flowProductos, flowCancelar, flowTarjeta,flowChatGPT]
     )
 
 /* FUNCIÓN NECEARIA SI SOLO SE REQUIERE CHATGPT SOLITO DA CLIC DE NECESITARLA
