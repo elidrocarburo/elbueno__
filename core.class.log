@@ -2,10 +2,10 @@
   key: {
     remoteJid: '5219842343944@s.whatsapp.net',
     fromMe: false,
-    id: '3EB02E0C5A03607C666854',
+    id: '3EB06C2007D21CC7FED256',
     participant: undefined
   },
-  messageTimestamp: 1707262637,
+  messageTimestamp: 1707264642,
   pushName: 'Héctor Ruiz',
   broadcast: false,
   message: Message {
@@ -19,8 +19,8 @@
   from: '5219842343944'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_385723ef-29ea-41a0-8e34-912db68a5944',
-  keyword: 'key_d3a64233-4be5-478c-a069-7b94cec2bd50',
+  ref: 'ans_b57edf44-dbc5-42cb-9bdf-3616405701f7',
+  keyword: 'key_32f6d449-bcf3-425e-8d17-8ec4871402ee',
   answer: '🙌 Hola bienvenido a este *Chatbot*',
   options: {
     media: null,
@@ -34,11 +34,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '19b2b07410b7ca019c6b24285988a9f3'
+  refSerialize: 'f6a571700ea673c16c4b0995e3218d89'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_268660c8-8708-4cf7-9dae-480f931335d7',
-  keyword: 'ans_385723ef-29ea-41a0-8e34-912db68a5944',
+  ref: 'ans_4fce7c2f-ab87-406c-992a-904cc59d6eda',
+  keyword: 'ans_b57edf44-dbc5-42cb-9bdf-3616405701f7',
   answer: 'Soy ese:',
   options: {
     media: 'https://i.pinimg.com/236x/2e/3d/97/2e3d97cc1ad6010f10fd8511d7cf470b.jpg',
@@ -52,11 +52,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '9200dc17f9d6e0d4fc04516d397c53e1'
+  refSerialize: 'b9cf87dc58c2a0cc6f1874c539cf8a79'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_7285bea4-c554-4576-91cf-127ab711b830',
-  keyword: 'ans_268660c8-8708-4cf7-9dae-480f931335d7',
+  ref: 'ans_91c0b4e7-bd68-4030-a830-62b6d3cbf826',
+  keyword: 'ans_4fce7c2f-ab87-406c-992a-904cc59d6eda',
   answer: 'te comparto los siguientes links de interes sobre el proyecto\n' +
     '👉 *doc* para ver la documentación\n' +
     '👉 *gracias*  para ver la lista de videos\n' +
@@ -87,16 +87,356 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'fa99a7acac7309c051bd4a443fa004ff'
+  refSerialize: '72f228153d9c0e79c3bb1084b96a0029'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5219842343944@s.whatsapp.net',
     fromMe: false,
-    id: '3EB030609184E9D527CC01',
+    id: '3EB0EA38003FB67E5E21B4',
     participant: undefined
   },
-  messageTimestamp: 1707262642,
+  messageTimestamp: 1707264649,
+  pushName: 'Héctor Ruiz',
+  broadcast: false,
+  message: Message {
+    conversation: 'doc',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'doc',
+  from: '5219842343944'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_529e9e58-2d5d-4395-9ec9-a2adbb0a4e7a',
+  keyword: 'key_40724bfd-0274-424f-8b0f-47a98f9d7779',
+  answer: '📄 Aquí encontras las documentación recuerda que puedes mejorarla\n' +
+    'https://bot-whatsapp.netlify.app/\n' +
+    '\n' +
+    '*2* Para siguiente paso.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '47eed3cd3c14bc4837a3e31572aa4f01'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219842343944@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB046A15400146F5AE3B9',
+    participant: undefined
+  },
+  messageTimestamp: 1707264651,
+  pushName: 'Héctor Ruiz',
+  broadcast: false,
+  message: Message {
+    conversation: '2',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '2',
+  from: '5219842343944'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_2d549bd1-fe45-459a-96bf-b6a021a01779',
+  keyword: 'key_7df4ceb0-29ab-4bed-8dcf-e6b2a3133049',
+  answer: '📄 Aquí tenemos el flujo secundario y mira cómo escribes *doc* y así siguies a un flujo secundario',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'a410b8b1560c20d449caa145130b8472'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219842343944@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0FD5427DC95D320CD5B',
+    participant: undefined
+  },
+  messageTimestamp: 1707264653,
+  pushName: 'Héctor Ruiz',
+  broadcast: false,
+  message: Message {
+    conversation: 'doc',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'doc',
+  from: '5219842343944'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_2a889d37-eaa7-485f-b385-c1c8d2564b0c',
+  keyword: 'key_1710af9f-27e2-415f-8f66-1c34535aa7b2',
+  answer: '📄 Aquí tenemos el flujo terciario',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '23bca38f93532ebd6c8255cb4d2de9aa'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219842343944@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB07A4D50DFDEFC3B3AAA',
+    participant: undefined
+  },
+  messageTimestamp: 1707264655,
+  pushName: 'Héctor Ruiz',
+  broadcast: false,
+  message: Message {
+    conversation: 'hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hola',
+  from: '5219842343944'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_b57edf44-dbc5-42cb-9bdf-3616405701f7',
+  keyword: 'key_32f6d449-bcf3-425e-8d17-8ec4871402ee',
+  answer: '🙌 Hola bienvenido a este *Chatbot*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'f6a571700ea673c16c4b0995e3218d89'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_4fce7c2f-ab87-406c-992a-904cc59d6eda',
+  keyword: 'ans_b57edf44-dbc5-42cb-9bdf-3616405701f7',
+  answer: 'Soy ese:',
+  options: {
+    media: 'https://i.pinimg.com/236x/2e/3d/97/2e3d97cc1ad6010f10fd8511d7cf470b.jpg',
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'b9cf87dc58c2a0cc6f1874c539cf8a79'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_91c0b4e7-bd68-4030-a830-62b6d3cbf826',
+  keyword: 'ans_4fce7c2f-ab87-406c-992a-904cc59d6eda',
+  answer: 'te comparto los siguientes links de interes sobre el proyecto\n' +
+    '👉 *doc* para ver la documentación\n' +
+    '👉 *gracias*  para ver la lista de videos\n' +
+    '👉 *discord* unirte al discord\n' +
+    '👉 *productos* checa los productos bro\n' +
+    '👉 *tarjeta* para ver un ejemplo rapido\n' +
+    '👉 *chatgpt* pruebame nene\n' +
+    '👉 *cancelar* para salir',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '72f228153d9c0e79c3bb1084b96a0029'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219842343944@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0D2702C9DF591AEDF6A',
+    participant: undefined
+  },
+  messageTimestamp: 1707264659,
+  pushName: 'Héctor Ruiz',
+  broadcast: false,
+  message: Message {
+    conversation: 'gracias',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'gracias',
+  from: '5219842343944'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_d5d6cf0a-958c-4534-b297-91c2b46eefea',
+  keyword: 'key_36a7a03a-1b94-478c-81aa-2ec43616f044',
+  answer: '🚀 Puedes aportar tu granito de arena a este proyecto\n' +
+    '[*opencollective*] https://opencollective.com/bot-whatsapp\n' +
+    '[*buymeacoffee*] https://www.buymeacoffee.com/leifermendez\n' +
+    '[*patreon*] https://www.patreon.com/leifermendez',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '32556eab4771869ef87f0f779617acbb'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219842343944@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0D0B159C970CB5D335E',
+    participant: undefined
+  },
+  messageTimestamp: 1707264662,
+  pushName: 'Héctor Ruiz',
+  broadcast: false,
+  message: Message {
+    conversation: 'hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hola',
+  from: '5219842343944'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_b57edf44-dbc5-42cb-9bdf-3616405701f7',
+  keyword: 'key_32f6d449-bcf3-425e-8d17-8ec4871402ee',
+  answer: '🙌 Hola bienvenido a este *Chatbot*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'f6a571700ea673c16c4b0995e3218d89'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_4fce7c2f-ab87-406c-992a-904cc59d6eda',
+  keyword: 'ans_b57edf44-dbc5-42cb-9bdf-3616405701f7',
+  answer: 'Soy ese:',
+  options: {
+    media: 'https://i.pinimg.com/236x/2e/3d/97/2e3d97cc1ad6010f10fd8511d7cf470b.jpg',
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'b9cf87dc58c2a0cc6f1874c539cf8a79'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_91c0b4e7-bd68-4030-a830-62b6d3cbf826',
+  keyword: 'ans_4fce7c2f-ab87-406c-992a-904cc59d6eda',
+  answer: 'te comparto los siguientes links de interes sobre el proyecto\n' +
+    '👉 *doc* para ver la documentación\n' +
+    '👉 *gracias*  para ver la lista de videos\n' +
+    '👉 *discord* unirte al discord\n' +
+    '👉 *productos* checa los productos bro\n' +
+    '👉 *tarjeta* para ver un ejemplo rapido\n' +
+    '👉 *chatgpt* pruebame nene\n' +
+    '👉 *cancelar* para salir',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '72f228153d9c0e79c3bb1084b96a0029'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219842343944@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0F22137DC21B2F27789',
+    participant: undefined
+  },
+  messageTimestamp: 1707264664,
   pushName: 'Héctor Ruiz',
   broadcast: false,
   message: Message {
@@ -110,8 +450,8 @@
   from: '5219842343944'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_75b9248f-6438-4ebf-9d01-be1d8b4907a5',
-  keyword: 'key_08fd6c2c-e175-44df-80ee-246f2fab1216',
+  ref: 'ans_5c0c3f7b-10f8-4d87-97a2-3cdab603066b',
+  keyword: 'key_dca67574-2981-4c6a-a8c7-4f0da8ad6786',
   answer: '🤪 Únete al discord\nhttps://link.codigoencasa.com/DISCORD',
   options: {
     media: null,
@@ -125,5 +465,506 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '1355cea3468a9ca0d9f4bd9cbd2409dc'
+  refSerialize: '593f16b5c07ee54c884e01fe3f7e685b'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219842343944@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0ED6BF9266866740684',
+    participant: undefined
+  },
+  messageTimestamp: 1707264666,
+  pushName: 'Héctor Ruiz',
+  broadcast: false,
+  message: Message {
+    conversation: 'hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hola',
+  from: '5219842343944'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_b57edf44-dbc5-42cb-9bdf-3616405701f7',
+  keyword: 'key_32f6d449-bcf3-425e-8d17-8ec4871402ee',
+  answer: '🙌 Hola bienvenido a este *Chatbot*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'f6a571700ea673c16c4b0995e3218d89'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_4fce7c2f-ab87-406c-992a-904cc59d6eda',
+  keyword: 'ans_b57edf44-dbc5-42cb-9bdf-3616405701f7',
+  answer: 'Soy ese:',
+  options: {
+    media: 'https://i.pinimg.com/236x/2e/3d/97/2e3d97cc1ad6010f10fd8511d7cf470b.jpg',
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'b9cf87dc58c2a0cc6f1874c539cf8a79'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_91c0b4e7-bd68-4030-a830-62b6d3cbf826',
+  keyword: 'ans_4fce7c2f-ab87-406c-992a-904cc59d6eda',
+  answer: 'te comparto los siguientes links de interes sobre el proyecto\n' +
+    '👉 *doc* para ver la documentación\n' +
+    '👉 *gracias*  para ver la lista de videos\n' +
+    '👉 *discord* unirte al discord\n' +
+    '👉 *productos* checa los productos bro\n' +
+    '👉 *tarjeta* para ver un ejemplo rapido\n' +
+    '👉 *chatgpt* pruebame nene\n' +
+    '👉 *cancelar* para salir',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '72f228153d9c0e79c3bb1084b96a0029'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219842343944@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB03E6DA3BC44B2BC59E6',
+    participant: undefined
+  },
+  messageTimestamp: 1707264668,
+  pushName: 'Héctor Ruiz',
+  broadcast: false,
+  message: Message {
+    conversation: 'productos',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'productos',
+  from: '5219842343944'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219842343944@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0B0C7585D9CE0CEE4C3',
+    participant: undefined
+  },
+  messageTimestamp: 1707264674,
+  pushName: 'Héctor Ruiz',
+  broadcast: false,
+  message: Message {
+    conversation: 'cancelar',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'cancelar',
+  from: '5219842343944'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_fdfe5ee9-7440-4e27-bac2-aa25a35bc28f',
+  keyword: 'key_3359a4f4-667f-4635-bda9-0ba717bd9631',
+  answer: 'Consultando al stock de productos...',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object] ],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '363e0379567e499832d1830359ecdec6'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_a25bbd9a-ff8a-4af6-8921-5d6e6dec998a',
+  keyword: 'key_0b7f6714-082e-4f0f-ac4b-778262839028',
+  answer: '👋 Hasta luego',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'a4912f888d4b6c63da28a9b77dcc5e08'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219842343944@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0E7BD8B7E1B11E70BDC',
+    participant: undefined
+  },
+  messageTimestamp: 1707264678,
+  pushName: 'Héctor Ruiz',
+  broadcast: false,
+  message: Message {
+    conversation: 'hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hola',
+  from: '5219842343944'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_b57edf44-dbc5-42cb-9bdf-3616405701f7',
+  keyword: 'key_32f6d449-bcf3-425e-8d17-8ec4871402ee',
+  answer: '🙌 Hola bienvenido a este *Chatbot*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'f6a571700ea673c16c4b0995e3218d89'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_4fce7c2f-ab87-406c-992a-904cc59d6eda',
+  keyword: 'ans_b57edf44-dbc5-42cb-9bdf-3616405701f7',
+  answer: 'Soy ese:',
+  options: {
+    media: 'https://i.pinimg.com/236x/2e/3d/97/2e3d97cc1ad6010f10fd8511d7cf470b.jpg',
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'b9cf87dc58c2a0cc6f1874c539cf8a79'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_91c0b4e7-bd68-4030-a830-62b6d3cbf826',
+  keyword: 'ans_4fce7c2f-ab87-406c-992a-904cc59d6eda',
+  answer: 'te comparto los siguientes links de interes sobre el proyecto\n' +
+    '👉 *doc* para ver la documentación\n' +
+    '👉 *gracias*  para ver la lista de videos\n' +
+    '👉 *discord* unirte al discord\n' +
+    '👉 *productos* checa los productos bro\n' +
+    '👉 *tarjeta* para ver un ejemplo rapido\n' +
+    '👉 *chatgpt* pruebame nene\n' +
+    '👉 *cancelar* para salir',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '72f228153d9c0e79c3bb1084b96a0029'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219842343944@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB083C3BB863B0E77F8ED',
+    participant: undefined
+  },
+  messageTimestamp: 1707264682,
+  pushName: 'Héctor Ruiz',
+  broadcast: false,
+  message: Message {
+    conversation: 'tarjeta',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'tarjeta',
+  from: '5219842343944'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_c2350377-cab3-4212-ab0f-e86f3fe3cdfb',
+  keyword: 'key_902b08cd-79ba-4c96-8560-5c715cb9cc26',
+  answer: 'Mi tarjeta de presentación',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'f719e2cdd562de17f24f69d2acdad780'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219842343944@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB08D02C31AA92324F0C0',
+    participant: undefined
+  },
+  messageTimestamp: 1707264685,
+  pushName: 'Héctor Ruiz',
+  broadcast: false,
+  message: Message {
+    conversation: 'hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hola',
+  from: '5219842343944'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_b57edf44-dbc5-42cb-9bdf-3616405701f7',
+  keyword: 'key_32f6d449-bcf3-425e-8d17-8ec4871402ee',
+  answer: '🙌 Hola bienvenido a este *Chatbot*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'f6a571700ea673c16c4b0995e3218d89'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_4fce7c2f-ab87-406c-992a-904cc59d6eda',
+  keyword: 'ans_b57edf44-dbc5-42cb-9bdf-3616405701f7',
+  answer: 'Soy ese:',
+  options: {
+    media: 'https://i.pinimg.com/236x/2e/3d/97/2e3d97cc1ad6010f10fd8511d7cf470b.jpg',
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'b9cf87dc58c2a0cc6f1874c539cf8a79'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_91c0b4e7-bd68-4030-a830-62b6d3cbf826',
+  keyword: 'ans_4fce7c2f-ab87-406c-992a-904cc59d6eda',
+  answer: 'te comparto los siguientes links de interes sobre el proyecto\n' +
+    '👉 *doc* para ver la documentación\n' +
+    '👉 *gracias*  para ver la lista de videos\n' +
+    '👉 *discord* unirte al discord\n' +
+    '👉 *productos* checa los productos bro\n' +
+    '👉 *tarjeta* para ver un ejemplo rapido\n' +
+    '👉 *chatgpt* pruebame nene\n' +
+    '👉 *cancelar* para salir',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '72f228153d9c0e79c3bb1084b96a0029'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219842343944@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0E71C58F08779EF0323',
+    participant: undefined
+  },
+  messageTimestamp: 1707264689,
+  pushName: 'Héctor Ruiz',
+  broadcast: false,
+  message: Message {
+    conversation: 'chatgpt',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'chatgpt',
+  from: '5219842343944'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_f83a1e90-e536-48ea-832e-b30b42ce17c1',
+  keyword: 'key_98696995-55e9-4fdd-a14b-87ca6b31e10c',
+  answer: '🤖 Pruebame nene',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '14b9e1b2e0a4cdc81d9f2548d1296383'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_f277b860-f499-4086-8ac2-d7a4fe90d083',
+  keyword: 'ans_f83a1e90-e536-48ea-832e-b30b42ce17c1',
+  answer: '🤖 Pruebame nene',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object], [Object], [Object] ],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '55a0fa27884dc9a96c86b721cd78b2f7'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219842343944@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0611114EBDC76512448',
+    participant: undefined
+  },
+  messageTimestamp: 1707264697,
+  pushName: 'Héctor Ruiz',
+  broadcast: false,
+  message: Message {
+    conversation: 'qué citas hay?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'qué citas hay?',
+  from: '5219842343944'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219842343944@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB08F8DF35932D1D1633D',
+    participant: undefined
+  },
+  messageTimestamp: 1707264709,
+  pushName: 'Héctor Ruiz',
+  broadcast: false,
+  message: Message {
+    conversation: 'cancelar',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'cancelar',
+  from: '5219842343944'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_a25bbd9a-ff8a-4af6-8921-5d6e6dec998a',
+  keyword: 'key_0b7f6714-082e-4f0f-ac4b-778262839028',
+  answer: '👋 Hasta luego',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'a4912f888d4b6c63da28a9b77dcc5e08'
 }

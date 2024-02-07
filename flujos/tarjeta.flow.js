@@ -1,4 +1,5 @@
 const { addKeyword} = require('@bot-whatsapp/bot')
+const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 
 module.exports = addKeyword(['tarjeta']).addAnswer("Mi tarjeta de presentación", null, async (ctx, { provider }) => {
     // send a contact!

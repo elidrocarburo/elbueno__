@@ -15,8 +15,4 @@ module.exports = addKeyword(['chatgpt']).addAnswer('🤖 Pruebame nene', null, a
         if(ctx.body !== 'si confirmo'){
             return fallBack(message)
         }
-    },[confirmarFlow, cancelarFlow])
-
-// module.exports = async ({ database,provider }) => {
-//         return new ChatGPTClass(database,provider)
-//     }
+    },[confirmarFlow,cancelarFlow])
