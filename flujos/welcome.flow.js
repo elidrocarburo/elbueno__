@@ -1,13 +1,16 @@
-const {addKeyword,EVENTS} = require('@bot-whatsapp/bot')
+const { addKeyword, EVENTS} = require('@bot-whatsapp/bot')
+const docsFlow = require('./docs.flow')
+const tutoFlow = require('./tuto.flow')
+const graciasFlow = require('./gracias.flow')
+const discordFlow = require('./discord.flow')
+const cancelarFlow = require('./cancelar.flow')
+const tarjetaFlow = require('./tarjeta.flow')
+const chatgptFlow = require('./chatgpt.flow')
+const productosFlow = require('./productos.flow')
+
 const soyese = 'https://i.pinimg.com/236x/2e/3d/97/2e3d97cc1ad6010f10fd8511d7cf470b.jpg'
 
-
-
-
-/*
-Flujo de bienvenida 
-*/
-module.exports = addKeyword([EVENTS.WELCOME, 'hola', 'ole', 'alo'])
+module.exports= addKeyword([EVENTS.WELCOME, 'hola', 'ole', 'alo'])
     .addAnswer('🙌 Hola bienvenido a este *Chatbot*')
     .addAnswer('Soy ese:'
         ,
@@ -40,5 +43,5 @@ module.exports = addKeyword([EVENTS.WELCOME, 'hola', 'ole', 'alo'])
                 return fallBack('No entiendo que quieres decir')
             }
         },
-        [flowDocs, flowGracias, flowTuto, flowDiscord, flowProductos, flowCancelar, flowTarjeta,flowChatGPT]
+        [docsFlow, graciasFlow, tutoFlow, discordFlow, productosFlow, cancelarFlow, tarjetaFlow,chatgptFlow]
     )
