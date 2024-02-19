@@ -37,7 +37,7 @@ module.exports= addKeyword([EVENTS.WELCOME, 'hola', 'ole', 'alo'])
             '👉 *chatgpt* pruebame nene',
             '👉 *cancelar* para salir'
         ],
-        { capture: true },
+        { capture: true, delay: 1000},
         async (ctx, { fallBack }) => {
             if (!['doc', 'gracias', 'discord', 'productos'].includes(ctx.body)) {
                 return fallBack('No entiendo que quieres decir')
