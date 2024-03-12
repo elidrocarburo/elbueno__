@@ -1,26 +1,26 @@
 [handleMsg]:  {
   key: {
-    remoteJid: '5219993259344@s.whatsapp.net',
+    remoteJid: '5219842343944@s.whatsapp.net',
     fromMe: false,
-    id: 'DF0AD84C143D19993574870D8F49E15F',
+    id: '3EB0CCB93305F22E458ABB',
     participant: undefined
   },
-  messageTimestamp: 1707587858,
-  pushName: 'Elias U Xool-Feria🎮',
+  messageTimestamp: 1710280434,
+  pushName: 'Héctor Ruiz',
   broadcast: false,
   message: Message {
-    conversation: 'Hola',
+    conversation: 'chatgpt',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Hola',
-  from: '5219993259344'
+  body: 'chatgpt',
+  from: '5219842343944'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_c42f47b3-ccd6-4484-a28e-0aeb7b7604e3',
-  keyword: 'key_dd38834a-ead8-4f5d-b28b-3326c9b17b06',
+  ref: 'ans_67fc4243-b454-4390-a4ea-b5a1ef2389c8',
+  keyword: 'key_66708ddb-585c-4cee-acd5-5ac0f4f223a5',
   answer: '🙌 Hola bienvenido a este *Chatbot*',
   options: {
     media: null,
@@ -34,11 +34,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '50d466a2a7c26ceb6e85058e934e4247'
+  refSerialize: '7908e328bffb3f8a370b5c70e77f3e7f'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_8b5f34a1-e7e1-45c9-a76b-283ee23cad61',
-  keyword: 'ans_c42f47b3-ccd6-4484-a28e-0aeb7b7604e3',
+  ref: 'ans_4b86a7ac-76e6-455a-aec6-dfb919a2aa1c',
+  keyword: 'ans_67fc4243-b454-4390-a4ea-b5a1ef2389c8',
   answer: 'Soy ese:',
   options: {
     media: 'https://i.pinimg.com/236x/2e/3d/97/2e3d97cc1ad6010f10fd8511d7cf470b.jpg',
@@ -52,11 +52,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '4d0a482fcddc5c9357fd8855220c3112'
+  refSerialize: '82e276792039aaea3b4e1aacec0c568b'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_01ad5d4f-3056-4ed9-a533-545fd8a98cfe',
-  keyword: 'ans_8b5f34a1-e7e1-45c9-a76b-283ee23cad61',
+  ref: 'ans_123b4eb0-e576-4974-a0ff-222f25f4e0c3',
+  keyword: 'ans_4b86a7ac-76e6-455a-aec6-dfb919a2aa1c',
   answer: 'te comparto los siguientes links de interes sobre el proyecto\n' +
     '👉 *doc* para ver la documentación\n' +
     '👉 *gracias*  para ver la lista de videos\n' +
@@ -70,7 +70,7 @@
     buttons: [],
     capture: true,
     child: null,
-    delay: 0,
+    delay: 1000,
     idle: null,
     ref: null,
     nested: [
@@ -87,160 +87,51 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'ca12491367dc5a148b40ead2b45fb1f8'
+  refSerialize: '47b6d421c0fbfdcb2654b03d3f293599'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5219993259344@s.whatsapp.net',
+    remoteJid: '5219842343944@s.whatsapp.net',
     fromMe: false,
-    id: '21317A6B64A10E793725A38A21FD9B61',
+    id: '3EB082CA2DF84A3CCC19BA',
     participant: undefined
   },
-  messageTimestamp: 1707587876,
-  pushName: 'Elias U Xool-Feria🎮',
+  messageTimestamp: 1710280480,
+  pushName: 'Héctor Ruiz',
   broadcast: false,
   message: Message {
-    conversation: 'Tarjeta',
+    conversation: 'hola',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Tarjeta',
-  from: '5219993259344'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_4cb50593-df5e-4405-9634-9dade81b836c',
-  keyword: 'key_9a575cfe-480d-4033-8c16-85cc586ad95e',
-  answer: 'Mi tarjeta de presentación',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '1704c74ae45b7f9398a20acbb1f50563'
+  body: 'hola',
+  from: '5219842343944'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5219993259344@s.whatsapp.net',
+    remoteJid: '5219842343944@s.whatsapp.net',
     fromMe: false,
-    id: 'C59823911B07343EAC67498AD640C7A4',
+    id: '3EB04C4D876E3D4DE7F429',
     participant: undefined
   },
-  messageTimestamp: 1707587887,
-  pushName: 'Elias U Xool-Feria🎮',
+  messageTimestamp: 1710280504,
+  pushName: 'Héctor Ruiz',
   broadcast: false,
   message: Message {
-    conversation: 'tarjeta',
+    conversation: 'chatgpt',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'tarjeta',
-  from: '5219993259344'
+  body: 'chatgpt',
+  from: '5219842343944'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_c42f47b3-ccd6-4484-a28e-0aeb7b7604e3',
-  keyword: 'key_dd38834a-ead8-4f5d-b28b-3326c9b17b06',
-  answer: '🙌 Hola bienvenido a este *Chatbot*',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '50d466a2a7c26ceb6e85058e934e4247'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_8b5f34a1-e7e1-45c9-a76b-283ee23cad61',
-  keyword: 'ans_c42f47b3-ccd6-4484-a28e-0aeb7b7604e3',
-  answer: 'Soy ese:',
-  options: {
-    media: 'https://i.pinimg.com/236x/2e/3d/97/2e3d97cc1ad6010f10fd8511d7cf470b.jpg',
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '4d0a482fcddc5c9357fd8855220c3112'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_01ad5d4f-3056-4ed9-a533-545fd8a98cfe',
-  keyword: 'ans_8b5f34a1-e7e1-45c9-a76b-283ee23cad61',
-  answer: 'te comparto los siguientes links de interes sobre el proyecto\n' +
-    '👉 *doc* para ver la documentación\n' +
-    '👉 *gracias*  para ver la lista de videos\n' +
-    '👉 *discord* unirte al discord\n' +
-    '👉 *productos* checa los productos bro\n' +
-    '👉 *tarjeta* para ver un ejemplo rapido\n' +
-    '👉 *chatgpt* pruebame nene\n' +
-    '👉 *cancelar* para salir',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object]
-    ],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: 'ca12491367dc5a148b40ead2b45fb1f8'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5219993259344@s.whatsapp.net',
-    fromMe: false,
-    id: '69E5297761F56042620F53CEA2A808F5',
-    participant: undefined
-  },
-  messageTimestamp: 1707587895,
-  pushName: 'Elias U Xool-Feria🎮',
-  broadcast: false,
-  message: Message {
-    conversation: 'Chatgpt',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Chatgpt',
-  from: '5219993259344'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_8c2a3749-9ade-4e56-a5e0-5fc772057ffe',
-  keyword: 'key_a36e27d1-ac5a-40bc-add7-6ed217f5ef8a',
+  ref: 'ans_b438bbdb-625c-4407-84a3-e3da18f3242f',
+  keyword: 'key_3bdeed00-acd5-470b-ad0e-f4156492ebb9',
   answer: '🤖 Pruebame nene',
   options: {
     media: null,
@@ -254,11 +145,11 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '72e47899d78b8a20c1bdc9cd72ab2952'
+  refSerialize: '6109000346bdba1b35f8a37369537bef'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_76895dbf-7a19-40fe-8a0a-2806508ff0de',
-  keyword: 'ans_8c2a3749-9ade-4e56-a5e0-5fc772057ffe',
+  ref: 'ans_1d7d9817-9e5a-4464-9232-a183c01a0c60',
+  keyword: 'ans_b438bbdb-625c-4407-84a3-e3da18f3242f',
   answer: '🤖 Pruebame nene',
   options: {
     media: null,
@@ -272,216 +163,76 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '76ddcbb612758341f79b4ffd55af0386'
+  refSerialize: 'ca565b322aa1a46beafaccc1494bedd5'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5219993259344@s.whatsapp.net',
+    remoteJid: '5219842343944@s.whatsapp.net',
     fromMe: false,
-    id: '73367314C37ADE37E699735B5C4F648A',
+    id: '3EB099F3AAE8C381444464',
     participant: undefined
   },
-  messageTimestamp: 1707587912,
-  pushName: 'Elias U Xool-Feria🎮',
+  messageTimestamp: 1710280515,
+  pushName: 'Héctor Ruiz',
   broadcast: false,
   message: Message {
-    conversation: 'Cómo se dice loco en japonés?',
+    conversation: 'dime qué es python',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Cómo se dice loco en japonés?',
-  from: '5219993259344'
+  body: 'dime qué es python',
+  from: '5219842343944'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5219993259344@s.whatsapp.net',
+    remoteJid: '5219842343944@s.whatsapp.net',
     fromMe: false,
-    id: 'A9FA0FF792802607EA51E6FDF946D539',
+    id: '3EB0062B7E40415A4DD948',
     participant: undefined
   },
-  messageTimestamp: 1707587927,
-  pushName: 'Elias U Xool-Feria🎮',
+  messageTimestamp: 1710280524,
+  pushName: 'Héctor Ruiz',
   broadcast: false,
   message: Message {
-    conversation: 'Cuántos caracteres puedes mandar?',
+    conversation: 'explícame más',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Cuántos caracteres puedes mandar?',
-  from: '5219993259344'
+  body: 'explícame más',
+  from: '5219842343944'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5219993259344@s.whatsapp.net',
+    remoteJid: '5219842343944@s.whatsapp.net',
     fromMe: false,
-    id: '5BCE863160975CBFDB82CF57DC192453',
+    id: '3EB0B1209537D10E941C45',
     participant: undefined
   },
-  messageTimestamp: 1707587943,
-  pushName: 'Elias U Xool-Feria🎮',
+  messageTimestamp: 1710280537,
+  pushName: 'Héctor Ruiz',
   broadcast: false,
   message: Message {
-    conversation: 'Mándame 4999 caracteres aleatoriamente',
+    conversation: 'qué día se celebra el cumpleaños de benito juarez',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Mándame 4999 caracteres aleatoriamente',
-  from: '5219993259344'
+  body: 'qué día se celebra el cumpleaños de benito juarez',
+  from: '5219842343944'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5219993259344@s.whatsapp.net',
     fromMe: false,
-    id: 'B3F25DBAE424EF86C831252A1E0E3979',
+    id: 'CC618D95B5E4994B59C5B3A207523CF1',
     participant: undefined
   },
-  messageTimestamp: 1707587973,
-  pushName: 'Elias U Xool-Feria🎮',
-  broadcast: false,
-  message: Message {
-    conversation: 'Ahora generame esos caracteres para hacer una contraseña',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Ahora generame esos caracteres para hacer una contraseña',
-  from: '5219993259344'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5219993259344@s.whatsapp.net',
-    fromMe: false,
-    id: '6D2EC94521976706D8C9B05904BCB09A',
-    participant: undefined
-  },
-  messageTimestamp: 1707588029,
-  pushName: 'Elias U Xool-Feria🎮',
-  broadcast: false,
-  message: Message {
-    conversation: 'Hola',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Hola',
-  from: '5219993259344'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5219993259344@s.whatsapp.net',
-    fromMe: false,
-    id: '67A50643D42CF3C9DAAE095659F76707',
-    participant: undefined
-  },
-  messageTimestamp: 1707588040,
-  pushName: 'Elias U Xool-Feria🎮',
-  broadcast: false,
-  message: Message {
-    conversation: 'Una tesis con todo',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Una tesis con todo',
-  from: '5219993259344'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5219993259344@s.whatsapp.net',
-    fromMe: false,
-    id: 'DFABB3C64F61846C014CCA01CB8452E7',
-    participant: undefined
-  },
-  messageTimestamp: 1707588076,
-  pushName: 'Elias U Xool-Feria🎮',
-  broadcast: false,
-  message: Message {
-    conversation: 'Bueno',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Bueno',
-  from: '5219993259344'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5219993259344@s.whatsapp.net',
-    fromMe: false,
-    id: '89D41BCE6414D8B3E521E636D517F45E',
-    participant: undefined
-  },
-  messageTimestamp: 1707588079,
-  pushName: 'Elias U Xool-Feria🎮',
-  broadcast: false,
-  message: Message {
-    conversation: '🥵',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '🥵',
-  from: '5219993259344'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5219993259344@s.whatsapp.net',
-    fromMe: false,
-    id: 'FBC83BCFF6875D6A67DFD79E7568B5E5',
-    participant: undefined
-  },
-  messageTimestamp: 1707588292,
-  pushName: 'Elias U Xool-Feria🎮',
-  broadcast: false,
-  message: Message {
-    conversation: 'Salir',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Salir',
-  from: '5219993259344'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5219993259344@s.whatsapp.net',
-    fromMe: false,
-    id: 'EDE5F2C97909B63C5863BA205D154E07',
-    participant: undefined
-  },
-  messageTimestamp: 1707588302,
-  pushName: 'Elias U Xool-Feria🎮',
-  broadcast: false,
-  message: Message {
-    conversation: 'Hola',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Hola',
-  from: '5219993259344'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5219993259344@s.whatsapp.net',
-    fromMe: false,
-    id: '5C4702644CAAD7D7C77D69ADDF3127E9',
-    participant: undefined
-  },
-  messageTimestamp: 1707588310,
+  messageTimestamp: 1710281351,
   pushName: 'Elias U Xool-Feria🎮',
   broadcast: false,
   message: Message {
@@ -495,8 +246,99 @@
   from: '5219993259344'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_20c49ba4-d8c0-46d5-b832-dd0eb7acb695',
-  keyword: 'key_184ecc1a-2ec6-4837-84da-6c8f1db58c05',
+  ref: 'ans_67fc4243-b454-4390-a4ea-b5a1ef2389c8',
+  keyword: 'key_66708ddb-585c-4cee-acd5-5ac0f4f223a5',
+  answer: '🙌 Hola bienvenido a este *Chatbot*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '7908e328bffb3f8a370b5c70e77f3e7f'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_4b86a7ac-76e6-455a-aec6-dfb919a2aa1c',
+  keyword: 'ans_67fc4243-b454-4390-a4ea-b5a1ef2389c8',
+  answer: 'Soy ese:',
+  options: {
+    media: 'https://i.pinimg.com/236x/2e/3d/97/2e3d97cc1ad6010f10fd8511d7cf470b.jpg',
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '82e276792039aaea3b4e1aacec0c568b'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_123b4eb0-e576-4974-a0ff-222f25f4e0c3',
+  keyword: 'ans_4b86a7ac-76e6-455a-aec6-dfb919a2aa1c',
+  answer: 'te comparto los siguientes links de interes sobre el proyecto\n' +
+    '👉 *doc* para ver la documentación\n' +
+    '👉 *gracias*  para ver la lista de videos\n' +
+    '👉 *discord* unirte al discord\n' +
+    '👉 *productos* checa los productos bro\n' +
+    '👉 *tarjeta* para ver un ejemplo rapido\n' +
+    '👉 *chatgpt* pruebame nene\n' +
+    '👉 *cancelar* para salir',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 1000,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '47b6d421c0fbfdcb2654b03d3f293599'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219993259344@s.whatsapp.net',
+    fromMe: false,
+    id: '2AA5E1AF77BDEB528F3DF8D91BAD8F54',
+    participant: undefined
+  },
+  messageTimestamp: 1710281378,
+  pushName: 'Elias U Xool-Feria🎮',
+  broadcast: false,
+  message: Message {
+    conversation: 'Cancelar',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Cancelar',
+  from: '5219993259344'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_6eca82c2-4f13-4880-bf9d-e001e69a5c8d',
+  keyword: 'key_c993acbd-220d-42d3-b136-b0583fc82f17',
   answer: '👋 Hasta luego',
   options: {
     media: null,
@@ -510,31 +352,31 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '2ce8d65c351cc91e8b02a0417a67beb6'
+  refSerialize: 'd8eda97737cc4465b06874f78c50d42c'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5219993259344@s.whatsapp.net',
     fromMe: false,
-    id: '31306F51475928BDDC6DDAAA163BD249',
+    id: 'B150B4425EE40FB18E82146DAA1E8736',
     participant: undefined
   },
-  messageTimestamp: 1707588377,
+  messageTimestamp: 1710281387,
   pushName: 'Elias U Xool-Feria🎮',
   broadcast: false,
   message: Message {
-    conversation: 'discord',
+    conversation: '._.',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'discord',
+  body: '._.',
   from: '5219993259344'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_c42f47b3-ccd6-4484-a28e-0aeb7b7604e3',
-  keyword: 'key_dd38834a-ead8-4f5d-b28b-3326c9b17b06',
+  ref: 'ans_67fc4243-b454-4390-a4ea-b5a1ef2389c8',
+  keyword: 'key_66708ddb-585c-4cee-acd5-5ac0f4f223a5',
   answer: '🙌 Hola bienvenido a este *Chatbot*',
   options: {
     media: null,
@@ -548,11 +390,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '50d466a2a7c26ceb6e85058e934e4247'
+  refSerialize: '7908e328bffb3f8a370b5c70e77f3e7f'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_8b5f34a1-e7e1-45c9-a76b-283ee23cad61',
-  keyword: 'ans_c42f47b3-ccd6-4484-a28e-0aeb7b7604e3',
+  ref: 'ans_4b86a7ac-76e6-455a-aec6-dfb919a2aa1c',
+  keyword: 'ans_67fc4243-b454-4390-a4ea-b5a1ef2389c8',
   answer: 'Soy ese:',
   options: {
     media: 'https://i.pinimg.com/236x/2e/3d/97/2e3d97cc1ad6010f10fd8511d7cf470b.jpg',
@@ -566,11 +408,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '4d0a482fcddc5c9357fd8855220c3112'
+  refSerialize: '82e276792039aaea3b4e1aacec0c568b'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_01ad5d4f-3056-4ed9-a533-545fd8a98cfe',
-  keyword: 'ans_8b5f34a1-e7e1-45c9-a76b-283ee23cad61',
+  ref: 'ans_123b4eb0-e576-4974-a0ff-222f25f4e0c3',
+  keyword: 'ans_4b86a7ac-76e6-455a-aec6-dfb919a2aa1c',
   answer: 'te comparto los siguientes links de interes sobre el proyecto\n' +
     '👉 *doc* para ver la documentación\n' +
     '👉 *gracias*  para ver la lista de videos\n' +
@@ -584,7 +426,7 @@
     buttons: [],
     capture: true,
     child: null,
-    delay: 0,
+    delay: 1000,
     idle: null,
     ref: null,
     nested: [
@@ -601,32 +443,32 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'ca12491367dc5a148b40ead2b45fb1f8'
+  refSerialize: '47b6d421c0fbfdcb2654b03d3f293599'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5219993259344@s.whatsapp.net',
     fromMe: false,
-    id: '8313B1FA5E02B2DB1783F843140C679F',
+    id: '3087CC70AB1DF12BD038A3E875E3C363',
     participant: undefined
   },
-  messageTimestamp: 1707588386,
+  messageTimestamp: 1710281392,
   pushName: 'Elias U Xool-Feria🎮',
   broadcast: false,
   message: Message {
-    conversation: 'Discord',
+    conversation: 'Cancelar',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Discord',
+  body: 'Cancelar',
   from: '5219993259344'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_63f2a4a0-f3b9-4e0d-b401-19fb425e64de',
-  keyword: 'key_a0256704-bd3f-49d6-8f61-0b68c25e143c',
-  answer: '🤪 Únete al discord\nhttps://link.codigoencasa.com/DISCORD',
+  ref: 'ans_6eca82c2-4f13-4880-bf9d-e001e69a5c8d',
+  keyword: 'key_c993acbd-220d-42d3-b136-b0583fc82f17',
+  answer: '👋 Hasta luego',
   options: {
     media: null,
     buttons: [],
@@ -639,439 +481,5 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '1065ca2df35eb9bbb7aa3ee111b7dec9'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5219993259344@s.whatsapp.net',
-    fromMe: false,
-    id: 'FC0C581053ECC5BE6930EE2CF1C27AC4',
-    participant: undefined
-  },
-  messageTimestamp: 1707588397,
-  pushName: 'Elias U Xool-Feria🎮',
-  broadcast: false,
-  message: Message {
-    conversation: '🤪',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '🤪',
-  from: '5219993259344'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_c42f47b3-ccd6-4484-a28e-0aeb7b7604e3',
-  keyword: 'key_dd38834a-ead8-4f5d-b28b-3326c9b17b06',
-  answer: '🙌 Hola bienvenido a este *Chatbot*',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '50d466a2a7c26ceb6e85058e934e4247'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_8b5f34a1-e7e1-45c9-a76b-283ee23cad61',
-  keyword: 'ans_c42f47b3-ccd6-4484-a28e-0aeb7b7604e3',
-  answer: 'Soy ese:',
-  options: {
-    media: 'https://i.pinimg.com/236x/2e/3d/97/2e3d97cc1ad6010f10fd8511d7cf470b.jpg',
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '4d0a482fcddc5c9357fd8855220c3112'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_01ad5d4f-3056-4ed9-a533-545fd8a98cfe',
-  keyword: 'ans_8b5f34a1-e7e1-45c9-a76b-283ee23cad61',
-  answer: 'te comparto los siguientes links de interes sobre el proyecto\n' +
-    '👉 *doc* para ver la documentación\n' +
-    '👉 *gracias*  para ver la lista de videos\n' +
-    '👉 *discord* unirte al discord\n' +
-    '👉 *productos* checa los productos bro\n' +
-    '👉 *tarjeta* para ver un ejemplo rapido\n' +
-    '👉 *chatgpt* pruebame nene\n' +
-    '👉 *cancelar* para salir',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object]
-    ],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: 'ca12491367dc5a148b40ead2b45fb1f8'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5219993259344@s.whatsapp.net',
-    fromMe: false,
-    id: '3BE62C0CE81E89E0CC2D66C3C8E58FCE',
-    participant: undefined
-  },
-  messageTimestamp: 1707588403,
-  pushName: 'Elias U Xool-Feria🎮',
-  broadcast: false,
-  message: Message {
-    conversation: 'chatgpt',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'chatgpt',
-  from: '5219993259344'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_8c2a3749-9ade-4e56-a5e0-5fc772057ffe',
-  keyword: 'key_a36e27d1-ac5a-40bc-add7-6ed217f5ef8a',
-  answer: '🤖 Pruebame nene',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '72e47899d78b8a20c1bdc9cd72ab2952'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_76895dbf-7a19-40fe-8a0a-2806508ff0de',
-  keyword: 'ans_8c2a3749-9ade-4e56-a5e0-5fc772057ffe',
-  answer: '🤖 Pruebame nene',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [ [Object], [Object], [Object], [Object] ],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '76ddcbb612758341f79b4ffd55af0386'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5219993259344@s.whatsapp.net',
-    fromMe: false,
-    id: '9B25492D9B9AEDC598E7C7C190778E71',
-    participant: undefined
-  },
-  messageTimestamp: 1707588407,
-  pushName: 'Elias U Xool-Feria🎮',
-  broadcast: false,
-  message: Message {
-    conversation: '🤪',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '🤪',
-  from: '5219993259344'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5219993259344@s.whatsapp.net',
-    fromMe: false,
-    id: '71EFD3BAD789B56511FDA8B105F47D31',
-    participant: undefined
-  },
-  messageTimestamp: 1707588418,
-  pushName: 'Elias U Xool-Feria🎮',
-  broadcast: false,
-  message: Message {
-    conversation: 'Que significa este emoji 😜',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Que significa este emoji 😜',
-  from: '5219993259344'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5219993259344@s.whatsapp.net',
-    fromMe: false,
-    id: '00BC662CAA68B7B894417F267698ED31',
-    participant: undefined
-  },
-  messageTimestamp: 1707588437,
-  pushName: 'Elias U Xool-Feria🎮',
-  broadcast: false,
-  message: Message {
-    conversation: 'Dónde se ubica el tecnológico de Mérida Yucatán?',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Dónde se ubica el tecnológico de Mérida Yucatán?',
-  from: '5219993259344'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5219993259344@s.whatsapp.net',
-    fromMe: false,
-    id: '562DCA1620A24FCE288E58F31DD6ACC4',
-    participant: undefined
-  },
-  messageTimestamp: 1707588785,
-  pushName: 'Elias U Xool-Feria🎮',
-  broadcast: false,
-  message: Message {
-    conversation: 'Hola cómo estás?',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Hola cómo estás?',
-  from: '5219993259344'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5219993259344@s.whatsapp.net',
-    fromMe: false,
-    id: '9169E4B21F5B23CDD621241760D5350D',
-    participant: undefined
-  },
-  messageTimestamp: 1707589363,
-  pushName: 'Elias U Xool-Feria🎮',
-  broadcast: false,
-  message: Message {
-    conversation: 'Cuántos años tiene Elias Xool',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Cuántos años tiene Elias Xool',
-  from: '5219993259344'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5219993259344@s.whatsapp.net',
-    fromMe: false,
-    id: 'D45B94D262ED1926C94BFB31506E2BB1',
-    participant: undefined
-  },
-  messageTimestamp: 1707589396,
-  pushName: 'Elias U Xool-Feria🎮',
-  broadcast: false,
-  message: Message {
-    conversation: 'Cuánto es siete veces 15',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Cuánto es siete veces 15',
-  from: '5219993259344'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5219842343944@s.whatsapp.net',
-    fromMe: false,
-    id: 'C5AF90E68921CA5CCBF76454AD78D4EA',
-    participant: undefined
-  },
-  messageTimestamp: 1707595370,
-  pushName: 'Héctor Ruiz',
-  broadcast: false,
-  message: Message {
-    conversation: 'Hello',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Hello',
-  from: '5219842343944'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_c42f47b3-ccd6-4484-a28e-0aeb7b7604e3',
-  keyword: 'key_dd38834a-ead8-4f5d-b28b-3326c9b17b06',
-  answer: '🙌 Hola bienvenido a este *Chatbot*',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '50d466a2a7c26ceb6e85058e934e4247'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_8b5f34a1-e7e1-45c9-a76b-283ee23cad61',
-  keyword: 'ans_c42f47b3-ccd6-4484-a28e-0aeb7b7604e3',
-  answer: 'Soy ese:',
-  options: {
-    media: 'https://i.pinimg.com/236x/2e/3d/97/2e3d97cc1ad6010f10fd8511d7cf470b.jpg',
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '4d0a482fcddc5c9357fd8855220c3112'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_01ad5d4f-3056-4ed9-a533-545fd8a98cfe',
-  keyword: 'ans_8b5f34a1-e7e1-45c9-a76b-283ee23cad61',
-  answer: 'te comparto los siguientes links de interes sobre el proyecto\n' +
-    '👉 *doc* para ver la documentación\n' +
-    '👉 *gracias*  para ver la lista de videos\n' +
-    '👉 *discord* unirte al discord\n' +
-    '👉 *productos* checa los productos bro\n' +
-    '👉 *tarjeta* para ver un ejemplo rapido\n' +
-    '👉 *chatgpt* pruebame nene\n' +
-    '👉 *cancelar* para salir',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object]
-    ],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: 'ca12491367dc5a148b40ead2b45fb1f8'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5219842343944@s.whatsapp.net',
-    fromMe: false,
-    id: 'AE8700BB52814B5F53A076CD41605AAE',
-    participant: undefined
-  },
-  messageTimestamp: 1707595379,
-  pushName: 'Héctor Ruiz',
-  broadcast: false,
-  message: Message {
-    conversation: 'Chatgpt',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Chatgpt',
-  from: '5219842343944'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_8c2a3749-9ade-4e56-a5e0-5fc772057ffe',
-  keyword: 'key_a36e27d1-ac5a-40bc-add7-6ed217f5ef8a',
-  answer: '🤖 Pruebame nene',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '72e47899d78b8a20c1bdc9cd72ab2952'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_76895dbf-7a19-40fe-8a0a-2806508ff0de',
-  keyword: 'ans_8c2a3749-9ade-4e56-a5e0-5fc772057ffe',
-  answer: '🤖 Pruebame nene',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [ [Object], [Object], [Object], [Object] ],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '76ddcbb612758341f79b4ffd55af0386'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5219842343944@s.whatsapp.net',
-    fromMe: false,
-    id: '89316B790AC2E05FBAA6BA8556B5C09F',
-    participant: undefined
-  },
-  messageTimestamp: 1707595386,
-  pushName: 'Héctor Ruiz',
-  broadcast: false,
-  message: Message {
-    conversation: 'Hola buenas tardes',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Hola buenas tardes',
-  from: '5219842343944'
+  refSerialize: 'd8eda97737cc4465b06874f78c50d42c'
 }

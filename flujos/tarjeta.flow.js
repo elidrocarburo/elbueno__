@@ -11,7 +11,7 @@ module.exports = addKeyword(['tarjeta']).addAnswer("Mi tarjeta de presentación"
         "TEL;type=CELL;type=VOICE;waid=9995521599:9995521599\n" + // WhatsApp ID + phone number
         "END:VCARD";
 
-    const id = ctx.key.remoteJid
+    const id = ctx.key.remoteJidh
     const sock = await provider.getInstance()
     const sentMsg = await sock.sendMessage(id, {
         contacts: {
